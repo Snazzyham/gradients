@@ -1,9 +1,9 @@
 {
-  "name": "gradients",
+  "name": "text-gradients",
   "version": "1.0.0",
   "style": "gradients.css",
-  "homepage": "http://github.com/mrmrs/gradients",
-  "description": "CSS module for setting gradients with single purpose classes.",
+  "homepage": "http://github.com/snazzyham/gradients",
+  "description": "CSS module for setting gradients on text.",
   "keywords": [
     "css",
     "gradients",
@@ -12,16 +12,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/gradients.git"
+    "url": "http://github.com/snazzyham/text-gradients.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/gradients/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/snazzyham/text-gradients/issues",
+    "email": "snazzyham@gmail.com"
   },
   "author": {
-    "name": "mrmrs",
-    "email": "hi@mrmrs.cc",
-    "url": "http://mrmrs.cc"
+    "name": "Soham Adwani",
+    "email": "snazzyham@gmail.com",
+    "url": "http://snazzyham.com"
   },
   "license": "MIT",
   "devDependencies": {
