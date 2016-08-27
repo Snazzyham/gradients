@@ -1,218 +1,94 @@
 <!DOCTYPE html>
-<html lang="en" class="h-100">
+<html lang='en'>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <title>
-      GRADIENTS
-    </title>
-    <meta name="author" content="mrmrs">
-    <meta name="description" content="Simple css classes for using gradients">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://tachyons.io/css/tachyons.min.css">
-    <link rel="stylesheet" href="src/gradients.css">
-    <style type="text/css" media="screen">
-      #carbonads { opacity: 1; transition: opacity .1s linear; margin-right: auto; margin-left: auto; max-width: 20em; margin-bottom: 2em;  border: 1px solid rgba(255,255,255, .2); overflow: hidden; padding: .25em; }
-      #carbonads a { text-decoration: none; color: rgba(255,255,255, .7); font-size: 14px; }
-      #carbonads .carbon-img { float: left; width: 45%; }
-      #carbonads .carbon-img img { max-width: 100%; display: block; }
-      #carbonads .carbon-text { box-sizing: border-box; float: left; padding-top: .5em; padding-right: .25em; width: 55%;}
-      #carbonads:hover,
-      #carbonads:focus {
-        opacity: .5;
-        transition: opacity .2s linear;
-      }
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>TEXT-GRADIENTS</title>
+    <meta name="author" content="soham adwani">
+    <meta name="description" content="a CSS library to add gradients to your text.">
+    <link rel='stylesheet' href='text-gradients.min.css'>
+    <link rel='stylesheet' href='btns.css'>
+    <link href="https://npmcdn.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900" rel="stylesheet">
+    <link rel=stylesheet href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
+    <style>
+    body {
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0;
+    }
+
+    .f1 {
+     font-size: 3rem;
+     }
     </style>
   </head>
-  <body class="h-100 mt0 avenir">
-    <header class="bg-red-gradient h-100 dt w-100">
-      <div class="dtc overflow-auto v-mid">
-        <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&serve=CVYD42T&placement=mrmrsio" id="_carbonads_js"></script>
-        <h1 class="tc white-60 mv0 lh-solid" style="font-size: 1.5rem; font-size: 16vw;">
-          <span >G</span><span style="letter-spacing: .025em;">R</span><span style="letter-spacing: -.03em;">A</span><span >D</span><span >I</span><span >E</span><span >N</span><span >T</span><span >S</span>
-        </h1>
-        <h2 class="fw4 tc f5 mono white-60 ttu tracked mt0 mb5">446 bytes of curated css gradients</h2>
-        <div class="tc">
-          <a class="dim link pa2 pa3-l br2 ba bg-black-05 white-70 mr2" href="http://github.com/mrmrs/gradients">View on GitHub</a>
-          <a class="dim link pa2 pa3-l br2 ba bg-black-05 white-70 mr2" href="https://raw.githubusercontent.com/mrmrs/gradients/gh-pages/gradients.min.css">Download CSS</a>
-          <a class="dim link pa2 pa3-l br2 ba bg-black-05 white-70 ml2" href="https://twitter.com/intent/tweet?text=Make the web a little more beautiful with 446B of curated css gradients&url=http://mrmrs.io/gradients&via=mrmrs%5f">Tweet</a>
-        </div>
-        <div class="tc">
-          <code class="white-80 br2 f5 tc dib pa3 mt4">
-            npm install --save-dev gradients
-          </code>
-        </div>
-      </div>
-    </header>
-    <div class="dt w-100 h-100">
-      <div class="black-60 dtc v-mid h-100 w-100 bg-aqua-gradient">
-<h1 class="ph3 ph5-ns f1 b avenir mb0">Aqua</h1>
-<pre class="ph3 ph5-ns overflow-auto">
-<code class="f6">
-.bg-aqua-gradient {
-  background: rgba(127,219,255,1);
-  background: -webkit-linear-gradient(top, rgba(127,219,255,1) 0%, rgba(82,140,163,1) 100%);
-  background: linear-gradient(to bottom, rgba(127,219,255,1) 0%, rgba(82,140,163,1) 100%);
-}
-</code>
-</pre>
-    </div></div>
-    <div class="dt w-100 h-100">
-      <div class="dtc overflow-auto v-mid h-100 w-100 bg-blue-gradient">
-<h3 class="ph3 ph5-ns white-70 f1 b avenir mb0">Blue</h3>
-<pre class="ph3 ph5-ns overflow-auto">
-<code class="f6 white-70">
-.bg-blue-gradient {
-  background: rgba(0,116,217,1);
-  background: -webkit-linear-gradient(top, rgba(0,116,217,1) 0%, rgba(0,65,122,1) 100%);
-  background: linear-gradient(to bottom, rgba(0,116,217,1) 0%, rgba(0,65,122,1) 100%);
-}
-</code>
-</pre>
-     </div></div>
-     <div class="dt w-100 h-100">
-       <div class="b f1-ns dtc overflow-auto v-mid h-100 w-100 bg-navy-gradient white-70">
-        <h3 class="ph3 ph5-ns white-70 f1 b avenir mb0">Navy</h3>
-<pre class="ph3 ph5-ns overflow-auto">
-<code class="db f6 white-60">
-.bg-navy-gradient {
-  background: rgba(0,32,63,1);
-  background: -webkit-linear-gradient(top, rgba(0,32,63,1) 0%, rgba(0,10,20,1) 100%);
-  background: linear-gradient(to bottom, rgba(0,32,63,1) 0%, rgba(0,10,20,1) 100%);
-}
-</code>
-</pre>
-    </div></div>
-    <div class="dt w-100 h-100">
-      <div class="b f1-ns black-70 dtc overflow-auto v-mid h-100 w-100 bg-teal-gradient">
-        <h3 class="ph3 ph5-ns f1 b avenir mb0">Teal</h3>
-<pre class="ph3 ph5-ns overflow-auto">
-<code class="db f6">
-.bg-teal-gradient {
-  background: rgba(57,204,204,1);
-  background: -webkit-linear-gradient(top, rgba(57,204,204,1) 0%, rgba(34,122,122,1) 100%);
-  background: linear-gradient(to bottom, rgba(57,204,204,1) 0%, rgba(34,122,122,1) 100%);
-}
-</code>
-</pre>
+  <body>
 
-    </div></div>
-    <div class="dt w-100 h-100">
-      <div class="b f1-ns white-70 dtc overflow-auto v-mid h-100 w-100 bg-green-gradient">
-        <h3 class="ph3 ph5-ns white-70 f1 b avenir mb0">Green</h3>
-<pre class="ph3 ph5-ns overflow-auto">
-<code class="db f6">
-.bg-green-gradient {
-  background: rgba(46,204,64,1);
-  background: -webkit-linear-gradient(top, rgba(46,204,64,1) 0%, rgba(28,122,39,1) 100%);
-  background: linear-gradient(to bottom, rgba(46,204,64,1) 0%, rgba(28,122,39,1) 100%);
-}
-</code>
-</pre>
-    </div></div>
-    <div class="dt w-100 h-100"><div class="b f1-ns black-70 dtc overflow-auto v-mid h-100 w-100 bg-lime-gradient">
-        <h3 class="ph3 ph5-ns f1 b avenir mb0">Lime</h3>
-<pre class="ph3 ph5-ns overflow-auto">
-<code class="db f6">
-.bg-lime-gradient {
-  background: rgba(1,255,111,1);
-  background: -webkit-linear-gradient(top, rgba(1,255,111,1) 0%, rgba(2,163,72,1) 100%);
-  background: linear-gradient(to bottom, rgba(1,255,111,1) 0%, rgba(2,163,72,1) 100%);
-}
+  <div class="p3 bg-lime fit mxn2 myn2"> 
+    <h1 class=" caps navy-gradient-text f1">Text Gradients</h1>
+    <h2 class="caps"> A CSS framework to add gradients to your text</h2>
+    <p class="h3">forked from Adam Morse's <a href="http://mrmrs.io/gradients/">gradients</a> project.</p>
+    <a href="http://github.com/snazzyham/gradient-text" class="btn">Get the Code</a>
 
-</code>
-</pre>
-    </div></div>
-    <div class="dt w-100 h-100"><div class="b f1-ns black-70 dtc overflow-auto v-mid h-100 w-100 bg-yellow-gradient">
-        <h3 class="ph3 ph5-ns black-70 f1 b avenir mb0">Yellow</h3>
-<pre class="ph3 ph5-ns overflow-auto">
-<code class="db f6">
-.bg-yellow-gradient {
-  background: rgba(255,221,0,1);
-  background: -webkit-linear-gradient(top, rgba(255,221,0,1) 0%, rgba(184,147,0,1) 100%);
-  background: linear-gradient(to bottom, rgba(255,221,0,1) 0%, rgba(184,147,0,1) 100%);
-}
-</code>
-        </pre>
-    </div></div>
-    <div class="dt w-100 h-100"><div class="b f1-ns white-70 dtc overflow-auto v-mid h-100 w-100 bg-orange-gradient">
-        <h3 class="ph3 ph5-ns white-70 f1 b avenir mb0">Orange</h3>
-<pre class="ph3 ph5-ns overflow-auto">
-<code class="db f6 white-70">
-.bg-orange-gradient {
-  background: rgba(255,133,27,1);
-  background: -webkit-linear-gradient(top, rgba(255,133,27,1) 0%, rgba(255,80,27,1) 100%);
-  background: linear-gradient(to bottom, rgba(255,133,27,1) 0%, rgba(255,80,27,1) 100%);
-}
-</code>
-</pre>
-    </div></div>
-    <div class="dt w-100 h-100"><div class="b f1-ns white-70 dtc overflow-auto v-mid h-100 w-100 bg-red-gradient">
-        <h3 class="ph3 ph5-ns white-70 f1 b avenir mb0">Red</h3>
-<pre class="ph3 ph5-ns overflow-auto">
-<code class="db f6 white-70">
-.bg-red-gradient {
-  background: rgba(246,46,36,1);
-  background: -webkit-linear-gradient(top, rgba(246,46,36,1) 0%, rgba(255,54,121,1) 100%);
-  background: linear-gradient(to bottom, rgba(246,46,36,1) 0%, rgba(255,54,121,1) 100%);
-}
-</code>
-</pre>
-    </div></div>
-    <div class="dt w-100 h-100"><div class="b f1-ns dtc overflow-auto v-mid h-100 w-100 bg-fuchsia-gradient">
-        <h3 class="ph3 ph5-ns white-70 f1 b avenir mb0">Fuchsia</h3>
-<pre class="ph3 ph5-ns overflow-auto">
-<code class="db f6 white-70">
-.bg-fuchsia-gradient {
-  background: rgba(240,18,188,1);
-  background: -webkit-linear-gradient(top, rgba(240,18,188,1) 0%, rgba(163,11,128,1) 100%);
-  background: linear-gradient(to bottom, rgba(240,18,188,1) 0%, rgba(163,11,128,1) 100%);
-}
-</code>
-</pre>
-    </div></div>
-    <div class="dt w-100 h-100"><div class="b f1-ns dtc overflow-auto v-mid h-100 w-100 bg-purple-gradient">
-      <h3 class="ph3 ph5-ns white-70 f1 b avenir mb0">Purple</h3>
-<pre class="ph3 ph5-ns overflow-auto">
-<code class="db f6 white-70">
-.bg-purple-gradient {
-  background: rgba(176,13,201,1);
-  background: -webkit-linear-gradient(top, rgba(176,13,201,1) 0%, rgba(107,7,122,1) 100%);
-  background: linear-gradient(to bottom, rgba(176,13,201,1) 0%, rgba(107,7,122,1) 100%);
-}
-</code>
-</pre>
-    </div></div>
-    <div class="dt w-100 h-100"><div class="b f1-ns dtc overflow-auto v-mid h-100 w-100 bg-maroon-gradient">
-        <h3 class="ph3 ph5-ns white-70 f1 b avenir mb0">Maroon</h3>
-<pre class="ph3 ph5-ns overflow-auto">
-<code class="db f6 white-70">
-.bg-maroon-gradient {
-  background: rgba(204,31,115,1);
-  background: -webkit-linear-gradient(top, rgba(204,31,115,1) 0%, rgba(133,20,75,1) 100%);
-  background: linear-gradient(to bottom, rgba(204,31,115,1) 0%, rgba(133,20,75,1) 100%);
-}
-</code>
-</pre>
-    </div></div>
-    <footer class="bg-black-80">
-      <div class="bg-black-10 white pv5 ph3 ph3-m ph5-l">
-        <p class="mv0 measure lh-copy">
-          Made by <a title="Personal website of Adam Morse" href="http://mrmrs.cc" class="link dim white-60">mrmrs</a>
-          <a href="https://media.giphy.com/media/VxbvpfaTTo3le/giphy.gif" class="link white-90 dim b db">Dedicated to HK</a>
-        </p>
-        <div class="mt4 mb5">
-          <a class="dim link pa2 ph3-l br2 ba bg-black-05 white-70" href="https://twitter.com/intent/tweet?text=Make the web a little more beautiful with 446B of curated css gradients&url=http://mrmrs.io/gradients&via=mrmrs%5f">Tweet This</a>
-        </div>
-        <h2 class="f5 fw4 mb0">Other color tools</h2>
-        <ul class="f5 list pl0 ml0 fw4 mt3">
-          <li class="dib"><a class="db fw6 link dim pr2 white" title="Random a11y friendly color palette" href="http://randoma11y.com">randoma11y</a></li>
-          <li class="dib"><a class="db fw6 link dim ph3 white" title="Nicer default colors for the web" href="http://clrs.cc">colors.css</a></li>
-          <li class="dib"><a class="db fw6 link dim ph3 white" title="Color contrast checker tool" href="http://jxnblk.com/colorable">colorable</a></li>
-          <li class="dib"><a class="db fw6 link dim ph3 white" title="Gradient generator" href="http://jxnblk.com/shade">shade</a></li>
-        </ul>
-      </div>
-    </footer>
-<script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-52095955-1', 'mrmrs.io'); ga('send', 'pageview'); </script>
-  </body>
+  </div>
+
+  <div class="p4 bg-navy mxn2 myn2">
+  <h2 class="lime-gradient-text caps h1">Reason for existence</h2>
+  <p class="lime h3">I'm a huge fan of Adam Morse's gradients library, but sometimes I want to use gradients on my text and not the background, so I forked Adam's code, added 2 lines of CSS, and made this
+  </p>
+  <h4 class="caps lime">A few things to note</h4>
+  <ul class="lime h4">
+          <li>It only works with webkit</li>
+          <li>It only works good on headers, big headers</li>
+          <li>It will still work with Adam's gradients library, because I've changed the class names from a <code>bg-</code> prefix to a <code>-text</code> suffix. </li>
+  </ul>
+  </div>
+
+  <div class="p4 bg-white  mxn2 myn2">
+    
+    <h1 class="caps">Color Examples</h1>
+    <hr>
+    <h1 class="aqua-gradient-text caps f1">Aqua</h1>
+      <p class="h2 ml2 aqua">.aqua-gradient-text</p>
+    
+    <h1 class="blue-gradient-text caps f1">Blue</h1>
+      <p class="h2 ml2 blue">.blue-gradient-text</p>
+    
+    <h1 class="navy-gradient-text caps f1">Navy</h1>
+      <p class="h2 ml2 navy">.navy-gradient-text</p>
+
+    <h1 class="teal-gradient-text caps f1">teal</h1>
+      <p class="h2 ml2 teal">.teal-gradient-text</p>
+
+    <h1 class="green-gradient-text caps f1">green</h1>
+      <p class="h2 ml2 green">.green-gradient-text</p>
+
+    <h1 class="lime-gradient-text caps f1">lime</h1>
+      <p class="h2 ml2 lime">.lime-gradient-text</p>
+
+    <h1 class="yellow-gradient-text caps f1">yellow</h1>
+      <p class="h2 ml2 yellow">.yellow-gradient-text</p>
+
+    <h1 class="orange-gradient-text caps f1">orange</h1>
+      <p class="h2 ml2 orange">.orange-gradient-text</p>
+
+    <h1 class="red-gradient-text caps f1">red</h1>
+      <p class="h2 ml2 red">.red-gradient-text</p>
+
+    <h1 class="fuchsia-gradient-text caps f1">fuchsia</h1>
+      <p class="h2 ml2 fuchsia">.fuchsia-gradient-text</p>
+
+    <h1 class="purple-gradient-text caps f1">purple</h1>
+      <p class="h2 ml2 purple">.purple-gradient-text</p>
+
+    <h1 class="maroon-gradient-text caps f1">maroon</h1>
+      <p class="h2 ml2 maroon">.maroon-gradient-text</p>
+  </div>
+ 
+ <div class="p4 bg-black gray mxn2 myn2">
+ A <a href="http://snazzyham.com">Soham Adwani</a> interpretation of some <a href="http://mrmrs.io">Adam Morse code.</a>
+ </div>
+ </body>
 </html>
+

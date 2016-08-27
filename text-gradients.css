@@ -1,11 +1,11 @@
 /*
  *
- * GRADIENTS.CSS
- * v.1.0.0
- * @mrmrs
+ *  TEXT-GRADIENTS 
+ * 
+ *  forked from @mrmrs' awesome gradients project. It basically adds gradient colors to text.
  *
- * Each color has a class for setting a gradient on
- * text & background
+ * 
+ * 
  *
  * - Aqua
  * - Blue
@@ -22,77 +22,100 @@
  *
  */
 
-
-.bg-aqua-gradient {
+.aqua-gradient-text {
   background: rgba(127,219,255,1);
   background: -webkit-linear-gradient(top, rgba(127,219,255,1) 0%, rgba(82,140,163,1) 100%);
   background: linear-gradient(to bottom, rgba(127,219,255,1) 0%, rgba(82,140,163,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.bg-blue-gradient {
+.blue-gradient-text {
   background: rgba(0,116,217,1);
   background: -webkit-linear-gradient(top, rgba(0,116,217,1) 0%, rgba(0,65,122,1) 100%);
   background: linear-gradient(to bottom, rgba(0,116,217,1) 0%, rgba(0,65,122,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.bg-navy-gradient {
+.navy-gradient-text {
   background: rgba(0,32,63,1);
   background: -webkit-linear-gradient(top, rgba(0,32,63,1) 0%, rgba(0,10,20,1) 100%);
   background: linear-gradient(to bottom, rgba(0,32,63,1) 0%, rgba(0,10,20,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.bg-teal-gradient {
+.teal-gradient-text {
   background: rgba(57,204,204,1);
   background: -webkit-linear-gradient(top, rgba(57,204,204,1) 0%, rgba(34,122,122,1) 100%);
   background: linear-gradient(to bottom, rgba(57,204,204,1) 0%, rgba(34,122,122,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.bg-green-gradient {
+.green-gradient-text {
   background: rgba(46,204,64,1);
   background: -webkit-linear-gradient(top, rgba(46,204,64,1) 0%, rgba(28,122,39,1) 100%);
   background: linear-gradient(to bottom, rgba(46,204,64,1) 0%, rgba(28,122,39,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.bg-lime-gradient {
+.lime-gradient-text {
   background: rgba(1,255,111,1);
   background: -webkit-linear-gradient(top, rgba(1,255,111,1) 0%, rgba(2,163,72,1) 100%);
   background: linear-gradient(to bottom, rgba(1,255,111,1) 0%, rgba(2,163,72,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.bg-yellow-gradient {
+.yellow-gradient-text {
   background: rgba(255,221,0,1);
   background: -webkit-linear-gradient(top, rgba(255,221,0,1) 0%, rgba(184,147,0,1) 100%);
   background: linear-gradient(to bottom, rgba(255,221,0,1) 0%, rgba(184,147,0,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.bg-orange-gradient {
+.orange-gradient-text {
   background: rgba(255,133,27,1);
   background: -webkit-linear-gradient(top, rgba(255,133,27,1) 0%, rgba(255,80,27,1) 100%);
   background: linear-gradient(to bottom, rgba(255,133,27,1) 0%, rgba(255,80,27,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.bg-red-gradient {
+.red-gradient-text {
   background: rgba(246,46,36,1);
   background: -webkit-linear-gradient(top, rgba(246,46,36,1) 0%, rgba(255,54,121,1) 100%);
   background: linear-gradient(to bottom, rgba(246,46,36,1) 0%, rgba(255,54,121,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.bg-fuchsia-gradient {
+.fuchsia-gradient-text {
   background: rgba(240,18,188,1);
   background: -webkit-linear-gradient(top, rgba(240,18,188,1) 0%, rgba(163,11,128,1) 100%);
   background: linear-gradient(to bottom, rgba(240,18,188,1) 0%, rgba(163,11,128,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.bg-purple-gradient {
+.purple-gradient-text {
   background: rgba(176,13,201,1);
   background: -webkit-linear-gradient(top, rgba(176,13,201,1) 0%, rgba(107,7,122,1) 100%);
   background: linear-gradient(to bottom, rgba(176,13,201,1) 0%, rgba(107,7,122,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
-.bg-maroon-gradient {
+.maroon-gradient-text {
   background: rgba(204,31,115,1);
   background: -webkit-linear-gradient(top, rgba(204,31,115,1) 0%, rgba(133,20,75,1) 100%);
   background: linear-gradient(to bottom, rgba(204,31,115,1) 0%, rgba(133,20,75,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 

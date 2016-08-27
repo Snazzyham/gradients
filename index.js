@@ -19,16 +19,16 @@ var output = postcss([autoprefixer])
   .use(conditionals())
   .use(customMedia())
   .process(css, {
-    from: "src/gradients.css",
-    to: "gradients.css"
+    from: "src/text-gradients.css",
+    to: "text-gradients.css"
   })
   .css
 
-fs.writeFile("gradients.css", output, 'utf-8')
+fs.writeFile("text-gradients.css", output, 'utf-8')
 
 // Using YUI Compressor for CSS
 new compressor.minify({
     type: 'sqwish',
-    fileIn: 'gradients.css',
-    fileOut: 'gradients.min.css',
+    fileIn: 'text-gradients.css',
+    fileOut: 'text-gradients.min.css',
 });
